@@ -6,24 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
   </head>
-  <script>
-    function initApollo() {
-      var n = Math.random().toString(36).substring(7),
-        o = document.createElement("script");
-      (o.src =
-        "https://assets.apollo.io/staging/micro/website-tracker/tracker.iife.js?nocache=" +
-        n),
-        (o.async = !0),
-        (o.defer = !0),
-        (o.onload = function () {
-          window.trackingFunctions.onLoad({
-            appId: "653a23d49293c1cc7606222d",
-          });
-        }),
-        document.head.appendChild(o);
-    }
-    initApollo();
-  </script>
+  <script
+    type="text/javascript"
+    src="https://app-feature-form-abandoned-trigger.preview.staging-gcp.apollo.io/assets/js/meetings/meetings-widget-af85b5866fe02aec96d6.js"
+    onload='window.ApolloMeetings.initWidget({appId: "67ab3b31eadc3100117446e3", schedulingLink: "hew-es2-7w0"})'
+    defer
+  ></script>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
